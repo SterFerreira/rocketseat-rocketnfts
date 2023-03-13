@@ -1,0 +1,342 @@
+* {
+  margin: 0;
+  box-sizing: border-box;
+  font-family: 'Montserrat', sans-serif;
+}
+
+:root {
+  --body-background: #0e0e0e;
+  --color-logo: #ff5b50;
+  --card-color: #252525;
+  --text-color: #fff;
+  --subtitle-color: #5a5757;
+  --black-text: #000;
+  --color-input: #0d0d0d;
+}
+
+body {
+  color: var(--text-color);
+  background-color: var(--body-background);
+}
+
+#bg-img {
+  background-image: url(./assets/background.png);
+  background-size: cover;
+}
+
+#container-1 {
+  margin: auto;
+  width: 1277px;
+  padding-top: 57px;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+nav h1 {
+  font-size: 40px;
+  line-height: 49px;
+}
+
+nav ul {
+  display: flex;
+  list-style: none;
+  gap: 60px;
+  margin: 0;
+}
+
+.meta-button {
+  align-items: center;
+  justify-content: center;
+  gap: 15px;
+
+  display: flex;
+  width: 230px;
+  height: 50px;
+  padding: 0;
+
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 20px;
+
+  border: none;
+  background: var(--text-color);
+  color: var(--black-text);
+}
+
+#avatar-group {
+  display: flex;
+  margin-top: 55px;
+  gap: 6px;
+}
+
+#span {
+  margin: auto 0 0;
+}
+
+#section {
+  display: flex;
+  gap: 40px;
+  margin-top: 90px;
+}
+
+#section p,
+h1 {
+  margin: 0;
+}
+
+#section > div > p {
+  width: 401px;
+  height: 88px;
+
+  font-size: 18px;
+}
+
+#section div h1 {
+  width: 596px;
+  height: 246px;
+
+  font-weight: 700;
+  font-size: 50px;
+}
+
+#gallery-1 .column-1 {
+  margin: 100px 0 60px;
+}
+
+#gallery-1 div {
+  display: flex;
+  gap: 16px;
+}
+
+#gallery-1 div img {
+  width: 307px;
+  height: 197px;
+  border: 1px solid var(--text-color);
+}
+
+#container-2 {
+  width: 1277px;
+  margin: 0 auto;
+  display: flex;
+}
+
+#container-2 aside {
+  padding-top: 133px;
+  font-weight: 600;
+  font-size: 50px;
+  text-align: center;
+}
+
+#estatistica {
+  margin: 70px 0;
+}
+
+#container-2 section {
+  margin-left: 75px;
+  padding-bottom: 0px;
+}
+
+#container-2 section #lorem-column {
+  display: flex;
+  gap: 126px;
+  border-left: 1px solid var(--subtitle-color);
+}
+
+#container-2 section .lorem {
+  justify-content: center;
+  align-items: center;
+}
+
+#container-2 section p {
+  margin: 79px 0 71px 50px;
+  font-size: 18px;
+  line-height: 22px;
+}
+
+#container-3 {
+  border-top: 1px solid var(--subtitle-color);
+  margin-top: -3px;
+}
+
+#container-3 section {
+  width: 1277px;
+  margin: auto;
+}
+
+#container-3 section h2 {
+  font-weight: 700;
+  font-size: 50px;
+  line-height: 61px;
+  margin: 150px 0;
+}
+
+#border {
+  border: 1px solid var(--subtitle-color);
+  margin-top: 44px;
+}
+
+#gallery-2 {
+  display: flex;
+  justify-content: space-between;
+}
+
+.astro-profile {
+  width: 350px;
+}
+
+.astro-profile div {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 63px;
+}
+
+.astro-profile div h3 {
+  font-weight: 500;
+  font-size: 30px;
+  line-height: 37px;
+}
+
+.astro-profile .astro-info {
+  margin: 44px 0px 26px;
+}
+
+.astro-profile div .name {
+  font-size: 20px;
+  line-height: 24px;
+  color: #5a5757;
+  font-weight: 700;
+}
+
+.astro-profile div .valor {
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 24px;
+
+  color: var(--color-logo);
+}
+
+.artist-details {
+  display: flex;
+  width: 350px;
+  height: 150px;
+  background: var(--card-color);
+  gap: 40px;
+  justify-content: center;
+  align-items: center;
+}
+
+.artist-details img {
+  width: 100px;
+  height: 100px;
+}
+
+.gallery-3,
+.gallery-4 {
+  display: flex;
+  justify-content: center;
+  gap: 111px;
+}
+
+.gallery-4 {
+  margin-top: 111px;
+}
+
+.best-artist {
+  text-align: center;
+  margin: 151px 0px 120px;
+}
+
+footer {
+  background-color: var(--card-color);
+}
+
+#footer-1 {
+  margin: auto;
+  width: 1277px;
+}
+
+#footer-1 #orange-button {
+  background-color: var(--color-logo);
+  padding: 28px;
+  border: none;
+}
+
+input {
+  background-color: var(--color-input);
+  width: 280px;
+  padding: 20px 0;
+  border: none;
+  text-align: center;
+}
+
+#footer-1 .box-1 {
+  display: flex;
+  justify-content: space-between;
+  padding: 102px 0px 77px 0;
+  align-items: center;
+}
+
+footer .box-1 h1 {
+  font-size: 40px;
+}
+
+input::placeholder {
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 24px;
+}
+
+#input-button {
+  width: 122px;
+  padding: 22px;
+  font-weight: 700;
+  font-size: 20px;
+}
+
+.box-2 {
+  margin: auto;
+  width: 1277px;
+  display: flex;
+}
+
+.box-3 {
+  padding: 67px 0 0;
+  align-items: center;
+  justify-content: center;
+  margin-right: 62px;
+}
+
+.box-3 h3 {
+  font-weight: 500;
+  font-size: 30px;
+  line-height: 37px;
+  margin: 0;
+  padding-bottom: 25px;
+}
+
+#flexbox {
+  display: grid;
+  grid-template: repeat(3, 1fr) / repeat(3, 1fr);
+  gap: 15px 128px;
+  border-left: 1px solid var(--subtitle-color);
+  padding: 67px 0px 53px 122px;
+
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 24px;
+  color: var(--subtitle-color);
+}
+
+.social-media {
+  width: 1277px;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 80px 0 61px;
+  color: var(--subtitle-color);
+}
